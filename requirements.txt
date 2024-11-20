@@ -1,78 +1,103 @@
-accelerate==0.22.0  # Compatible with Python 3.8
-aiohappyeyeballs==2.4.3  # Compatible as-is
-aiohttp==3.8.1  # Compatible with Python 3.8
-aiosignal==1.2.0  # Compatible with Python 3.8
-alabaster==1.0.0  # Compatible as-is
-attrs==23.1.0  # Latest compatible version for Python 3.8
-babel==2.15.0  # Compatible with Python 3.8
-bitsandbytes==0.43.2  # Last Python 3.8-compatible version
-blinker==1.9.0  # Compatible as-is
-certifi==2023.7.22  # Compatible with Python 3.8
-charset-normalizer==3.2.0  # Compatible with Python 3.8
-click==8.1.3  # Compatible with Python 3.8
-colorama==0.4.6  # Compatible as-is
-datasets==2.15.1  # Last compatible version with Python 3.8
-dill==0.3.7  # Compatible with Python 3.8
-docopt==0.6.2  # Compatible as-is
-docutils==0.20.1  # Compatible with Python 3.8
-filelock==3.12.4  # Compatible with Python 3.8
-Flask==2.3.3  # Compatible with Python 3.8
-Flask-Cors==3.0.10  # Compatible with Python 3.8
-frozenlist==1.3.0  # Compatible with Python 3.8
-fsspec==2023.6.0  # Compatible with Python 3.8
-gTTS==2.2.4  # Compatible with Python 3.8
-huggingface-hub==0.17.3  # Compatible with Python 3.8
-idna==3.3  # Compatible with Python 3.8
-imagesize==1.4.1  # Compatible as-is
-itsdangerous==2.1.2  # Compatible with Python 3.8
-Jinja2==3.1.2  # Compatible with Python 3.8
-joblib==1.3.2  # Compatible with Python 3.8
-lxml==4.9.3  # Compatible with Python 3.8
-MarkupSafe==2.1.3  # Compatible with Python 3.8
-mock==4.0.3  # Compatible with Python 3.8
-Morfessor==2.0.6  # Compatible as-is
-mosestokenizer==1.2.0  # Compatible with Python 3.8
-mpmath==1.2.1  # Compatible with Python 3.8
-multidict==6.0.4  # Compatible with Python 3.8
-multiprocess==0.70.15  # Compatible with Python 3.8
-networkx==3.2  # Compatible with Python 3.8
-nltk==3.8.1  # Compatible with Python 3.8
-numpy==1.24.3  # Last compatible version for Python 3.8
-opencv-python==4.5.5.64  # Last Python 3.8-compatible version
-packaging==23.2  # Compatible with Python 3.8
-pandas==1.5.3  # Last compatible version for Python 3.8
-pillow==9.5.0  # Compatible with Python 3.8
-portalocker==2.8.2  # Compatible with Python 3.8
-propcache==0.2.0  # Compatible as-is
-psutil==5.9.5  # Compatible with Python 3.8
-pyarrow==10.0.1  # Compatible with Python 3.8
-Pygments==2.15.1  # Compatible with Python 3.8
-python-dateutil==2.8.2  # Compatible with Python 3.8
-pytz==2023.3  # Compatible with Python 3.8
-PyYAML==6.0.1  # Compatible with Python 3.8
-regex==2023.8.8  # Compatible with Python 3.8
-requests==2.31.0  # Compatible with Python 3.8
-sacrebleu==2.3.1  # Compatible with Python 3.8
-sacremoses==0.0.53  # Compatible with Python 3.8
-safetensors==0.3.3  # Compatible with Python 3.8
-scipy==1.10.1  # Last compatible version for Python 3.8
-sentencepiece==0.1.99  # Compatible with Python 3.8
-setuptools==65.6.3  # Compatible with Python 3.8
-six==1.16.0  # Compatible as-is
-snowballstemmer==2.2.0  # Compatible as-is
-Sphinx==5.3.0  # Compatible with Python 3.8
-sphinx-argparse==0.5.1  # Compatible with Python 3.8
-sphinx-rtd-theme==1.2.0  # Compatible with Python 3.8
-sympy==1.11.1  # Compatible with Python 3.8
-tabulate==0.9.0  # Compatible as-is
-tokenizers==0.13.3  # Last compatible version for Python 3.8
-torch==1.13.1  # Compatible with Python 3.8
-tqdm==4.67.0  # Compatible as-is
-transformers==4.28.0  # Compatible with Python 3.8
-triton==2.0.0  # Compatible with Python 3.8
-typing_extensions==4.7.1  # Compatible with Python 3.8
-tzdata==2023.3  # Compatible with Python 3.8
-urllib3==1.26.16  # Compatible with Python 3.8
-Werkzeug==2.2.3  # Compatible with Python 3.8
-xxhash==3.2.0  # Compatible with Python 3.8
-yarl==1.8.2  # Compatible with Python 3.8
+accelerate==1.1.1
+aiohappyeyeballs==2.4.3
+aiohttp==3.11.6
+aiosignal==1.3.1
+alabaster==1.0.0
+attrs==24.2.0
+babel==2.16.0
+bitsandbytes==0.44.1
+blinker==1.9.0
+certifi==2024.8.30
+charset-normalizer==3.4.0
+click==8.1.7
+colorama==0.4.6
+datasets==3.1.0
+dill==0.3.8
+docopt==0.6.2
+docutils==0.21.2
+filelock==3.16.1
+Flask==3.1.0
+Flask-Cors==5.0.0
+frozenlist==1.5.0
+fsspec==2024.9.0
+gTTS==2.5.4
+huggingface-hub==0.26.2
+idna==3.10
+imagesize==1.4.1
+indic_nlp_library_IT2 @ git+https://github.com/VarunGumma/indic_nlp_library@601521e05ed0ed8f2165ac317a47d186e25b6f0d
+# Editable install with no version control (IndicTransToolkit==1.0.2)
+-e /home/nagajas/Desktop/MINIPROJ02/DS510-MiniProject2/IndicTrans2/huggingface_interface/IndicTransToolkit
+itsdangerous==2.2.0
+Jinja2==3.1.4
+joblib==1.4.2
+lxml==5.3.0
+MarkupSafe==3.0.2
+mock==5.1.0
+Morfessor==2.0.6
+mosestokenizer==1.2.1
+mpmath==1.3.0
+multidict==6.1.0
+multiprocess==0.70.16
+networkx==3.4.2
+nltk==3.9.1
+numpy==2.1.3
+nvidia-cublas-cu12==12.4.5.8
+nvidia-cuda-cupti-cu12==12.4.127
+nvidia-cuda-nvrtc-cu12==12.4.127
+nvidia-cuda-runtime-cu12==12.4.127
+nvidia-cudnn-cu12==9.1.0.70
+nvidia-cufft-cu12==11.2.1.3
+nvidia-curand-cu12==10.3.5.147
+nvidia-cusolver-cu12==11.6.1.9
+nvidia-cusparse-cu12==12.3.1.170
+nvidia-nccl-cu12==2.21.5
+nvidia-nvjitlink-cu12==12.4.127
+nvidia-nvtx-cu12==12.4.127
+opencv-python==4.10.0.84
+openfile==0.0.7
+packaging==24.2
+pandas==2.2.3
+pillow==11.0.0
+portalocker==3.0.0
+propcache==0.2.0
+psutil==6.1.0
+pyarrow==18.0.0
+Pygments==2.18.0
+python-dateutil==2.9.0.post0
+pytz==2024.2
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+sacrebleu==2.4.3
+sacremoses==0.1.1
+safetensors==0.4.5
+scipy==1.14.1
+sentencepiece==0.2.0
+setuptools==75.5.0
+six==1.16.0
+snowballstemmer==2.2.0
+Sphinx==8.1.3
+sphinx-argparse==0.5.2
+sphinx-rtd-theme==3.0.2
+sphinxcontrib-applehelp==2.0.0
+sphinxcontrib-devhelp==2.0.0
+sphinxcontrib-htmlhelp==2.1.0
+sphinxcontrib-jquery==4.1
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==2.0.0
+sphinxcontrib-serializinghtml==2.0.0
+sympy==1.13.1
+tabulate==0.9.0
+tokenizers==0.20.3
+toolwrapper==2.1.0
+torch==2.5.1
+tqdm==4.67.0
+transformers==4.46.3
+triton==3.1.0
+typing_extensions==4.12.2
+tzdata==2024.2
+uctools==1.3.0
+urllib3==2.2.3
+Werkzeug==3.1.3
+xxhash==3.5.0
+yarl==1.17.2
