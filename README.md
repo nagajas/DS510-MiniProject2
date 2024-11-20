@@ -34,6 +34,11 @@ The application uses a pre-trained VisionEncoderDecoderModel to generate caption
     ```
 
 4. Install the required dependencies:
+    - When using python version >= 3.9 (recommended):
+    ```sh
+    pip install -r requirements_py3.9+.txt
+    ```
+    - When using python < 3.9:
     ```sh
     pip install -r requirements.txt
     ```
