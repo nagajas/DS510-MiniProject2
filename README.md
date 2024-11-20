@@ -45,7 +45,7 @@ The application uses a pre-trained VisionEncoderDecoderModel to generate caption
     python app.py
     ```
 
-2. Open your web browser and navigate to `http://localhost:3000` to run the website locally.
+2. Open your web browser and navigate to `http://localhost:3000` to run the website locally. Backend will run on port 5000.
 
 3. Use the web UI to upload an image, select a target language, and generate the caption, translation, and audio narration.
 
