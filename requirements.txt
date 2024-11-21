@@ -24,9 +24,9 @@ gTTS==2.5.4
 huggingface-hub==0.26.2
 idna==3.10
 imagesize==1.4.1
-indic_nlp_library_IT2 @ git+https://github.com/VarunGumma/indic_nlp_library@601521e05ed0ed8f2165ac317a47d186e25b6f0d
+# indic_nlp_library_IT2 @ git+https://github.com/VarunGumma/indic_nlp_library@601521e05ed0ed8f2165ac317a47d186e25b6f0d
 # Editable install with no version control (IndicTransToolkit==1.0.2)
--e /home/nagajas/Desktop/MINIPROJ02/DS510-MiniProject2/IndicTrans2/huggingface_interface/IndicTransToolkit
+# -e /home/nagajas/Desktop/MINIPROJ02/DS510-MiniProject2/IndicTrans2/huggingface_interface/IndicTransToolkit
 itsdangerous==2.2.0
 Jinja2==3.1.4
 joblib==1.4.2
