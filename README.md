@@ -73,13 +73,29 @@ You can select the target language from the dropdown menu on the web UI.
 
 ```
 DS510-MiniProject2/
-├── app.py
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── static/
+│   │   └── uploads/
+│   └── README.md
 ├── frontend/
-|   ├── App.js
-|   └── App.css
-├── requirements.txt
-├── static/
-│   └── uploads/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   │   ├── index.css
+│   │   ├── tailwind.config.js
+│   │   └── postcss.config.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── README.md
+├── LICENSE
 └── README.md
 ```
 
@@ -92,7 +108,7 @@ DS510-MiniProject2/
 - Transformers
 - gTTS
 - PIL
-- TQDM
+- IndicTransToolkit
 
 ## License
 
