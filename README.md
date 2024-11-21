@@ -45,36 +45,29 @@ To run the **DS510 Mini Project 02** application locally, follow the steps below
 
 ### 1. Start the Backend
 
-The backend is responsible for handling API requests, processing images, generating captions, translating text, and creating audio narrations.
-
 ```sh
-# Navigate to the backend directory
 cd backend
-
-# Create and activate a virtual environment
-python3 -m venv venv
+```
+Create virtual environment (Optional)
+```sh
+python3 -m venv venv 
 source venv/bin/activate
-
-# Install the required Python dependencies
+```
+Install the required dependencies and start the Flask server:
+```sh
 pip install -r requirements.txt
-
-# Start the Flask application
 python app.py
 ```
-
 ### 2. Start the Frontend
+Run the following in a new terminal window to start the frontend server:
 ```sh
-# Open a new terminal window/tab and navigate to the frontend directory
 cd frontend
-
-# Install the required JavaScript dependencies
 npm install
-
-# Start the React development server
 npm start
 ```
 
-3. Use the web UI to upload an image, select a target language, and generate the caption, translation, and audio narration.
+### 3. Access the Web UI at `http://localhost:3000`
+Use the web UI to upload an image, select a target language, and generate the caption, translation, and audio narration.
 
 ## Configuration
 
