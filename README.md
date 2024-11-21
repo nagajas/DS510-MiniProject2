@@ -40,12 +40,38 @@ The application uses a pre-trained VisionEncoderDecoderModel to generate caption
 
 ## Usage
 
-1. Start the Flask application:
-    ```sh
-    python app.py
-    ```
+To run the **DS510 Mini Project 02** application locally, follow the steps below to set up and start both the backend and frontend components.
 
-2. Open your web browser and navigate to `http://localhost:3000` to run the website locally.
+### 1. Start the Backend
+
+The backend is responsible for handling API requests, processing images, generating captions, translating text, and creating audio narrations.
+
+```sh
+# Navigate to the backend directory
+cd backend
+
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install the required Python dependencies
+pip install -r requirements.txt
+
+# Start the Flask application
+python app.py
+```
+
+### 2. Start the Frontend
+```sh
+# Open a new terminal window/tab and navigate to the frontend directory
+cd frontend
+
+# Install the required JavaScript dependencies
+npm install
+
+# Start the React development server
+npm start
+```
 
 3. Use the web UI to upload an image, select a target language, and generate the caption, translation, and audio narration.
 
