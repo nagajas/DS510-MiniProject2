@@ -31,6 +31,7 @@ The application uses a pre-trained VisionEncoderDecoderModel to generate caption
 3. Clone the IndicTransToolkit for Machine Translation
     ```sh
     git clone https://github.com/VarunGumma/IndicTransToolkit
+    python3 -m pip install --editable ./IndicTransToolkit/
     ```
 
 4. Install the required dependencies:
