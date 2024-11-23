@@ -30,6 +30,7 @@ The application uses a pre-trained VisionEncoderDecoderModel to generate caption
 
 3. Clone the IndicTransToolkit for Machine Translation
     ```sh
+    cd backend
     git clone https://github.com/VarunGumma/IndicTransToolkit
     python3 -m pip install --editable ./IndicTransToolkit/
     ```
@@ -47,17 +48,9 @@ To run the **DS510 Mini Project 02** application locally, follow the steps below
 
 ```sh
 cd backend
-```
-Create virtual environment (Optional)
-```sh
-python3 -m venv venv 
-source venv/bin/activate
-```
-Install the required dependencies and start the Flask server:
-```sh
-pip install -r requirements.txt
 python app.py
 ```
+
 ### 2. Start the Frontend
 Run the following in a new terminal window to start the frontend server:
 ```sh
